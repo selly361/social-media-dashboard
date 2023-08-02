@@ -1,3 +1,33 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+*,
+*::before,
+*::after {
+  webkit-tap-highlight-color: transparent;
+}
+
+
+html {
+  font-style: normal;
+  line-height: normal;
+}
+
+
+.bg-instagram {
+  background: linear-gradient(90deg, hsl(37, 97%, 70%), hsl(329, 70%, 58%))
+}
+
+.bg-darkToggle {
+  background: linear-gradient(rgba(64, 219, 130, 1), rgba(56, 143, 231, 1))
+}
