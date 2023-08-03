@@ -31,7 +31,7 @@ module.exports = {
         "secondaryDark": "hsl(228, 34%, 66%)",
 
         /* Light mode */
-        
+      
         "primaryLight": "hsl(230, 17%, 14%)",
         "secondaryLight": "hsl(228, 12%, 44%)",
         
@@ -63,9 +63,9 @@ module.exports = {
       },
       
       screens: {
-        'sm': '375px',
-        'md': '768px',
-        'lg': '1440px',
+        'sm': { 'max': '568px' },
+        'md': { 'max': '1068px' },
+        'lg': { 'max': '1440px' },
       }
     }
   },
