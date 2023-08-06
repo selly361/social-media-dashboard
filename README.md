@@ -10,7 +10,6 @@
     - [Live Site](#live-site)
   - [Table of contents](#table-of-contents)
   - [Overview](#overview)
-    - [Built with](#built-with)
   - [Author](#author)
 
 
