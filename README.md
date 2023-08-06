@@ -1,6 +1,6 @@
 # Social media dashboard with theme switcher solution
 
-![](./preview.jpg)
+![](./public/preview.jpg)
 
 ### [Live Site](https://your-live-site-url.com)
 
