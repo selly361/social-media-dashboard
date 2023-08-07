@@ -2,7 +2,7 @@
 
 ![](./public/preview.jpg)
 
-### [Live Site](https://your-live-site-url.com)
+### [Live Site](https://social-media-dashboard-ashy-beta.vercel.app/)
 
 ## Table of contents
 
