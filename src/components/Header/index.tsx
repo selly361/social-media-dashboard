@@ -5,7 +5,7 @@ function Header() {
   const { theme, toggleTheme } = useTheme();
 
   return (
-    <header className="w-full h-[54px] flex justify-between items-center md:h-70  md:flex-col md:gap-6 ">
+    <header className="w-full h-[54px] flex justify-between items-center md:h-70  md:flex-col md:gap-6">
       <div className="md:w-full md:pb-6 md:border-b border-[#848BAB] dark:border-[#333A55]">
         <h1 className="text-primaryLight text-[28px] sm:text-[24px] font-bold dark:text-primaryDark">
           Social Media Dashboard
@@ -14,7 +14,6 @@ function Header() {
           Total Followers: 23,004
         </h2>
       </div>
-
 
       <div className="flex gap-[13px] md:w-full justify-between ">
         <p className="text-secondaryDark dark:text-secondaryDark font-bold capitalize">
@@ -27,9 +26,7 @@ function Header() {
           `}
         >
           <div
-            className={
-              "h-4 w-4 rounded-full bg-[#F1F3FA] dark:bg-[#333A55] "
-            }
+            className={"h-4 w-4 rounded-full bg-[#F1F3FA] dark:bg-[#333A55] "}
           />
         </button>
       </div>
