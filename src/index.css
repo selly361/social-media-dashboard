@@ -44,6 +44,14 @@ html {
   background: hsla(348, 97%, 39%)
 }
 
+.text-red {
+  color: hsla(356, 69%, 56%, 1);
+}
+
+.text-green {
+  color: hsla(163, 71%, 41%, 1);
+}
+
 .bg-darkToggle {
   background: linear-gradient(rgba(64, 219, 130, 1), rgba(56, 143, 231, 1));
 }
