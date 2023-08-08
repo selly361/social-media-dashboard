@@ -4,7 +4,6 @@ import { IDashboard } from "Types";
 import { icons } from "Constants";
 
 function DashboardCard({ company, username, followers, today }: IDashboard) {
-  const bg = `bg-${company}`;
 
   const CompanyIcon = icons[company];
 
@@ -29,7 +28,7 @@ function DashboardCard({ company, username, followers, today }: IDashboard) {
       </div>
       <div className="mx-auto w-[max-content] flex gap-1 items-center">
         {today < 0 ? <ArrowDown /> : <ArrowUp />}
-        <p className={`${today < 0 ? "text-red" : "text-green"} font-bold text-[12px]`}>{today} Today</p>
+        <p className={`${today < 0 ? "text-red" : "text-green"} font-bold text-[12px]`}>{Math.abs(today)} Today</p>
       </div>
 
     </div>
