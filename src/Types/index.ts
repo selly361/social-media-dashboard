@@ -1,8 +1,20 @@
+type Company = "twitter" | "instagram" | "facebook" | "youtube"
+
+
 interface IDashboard {
-    company: "twitter" | "instagram" | "facebook" | "youtube"
+    company: Company
     followers: string
     today: number
     username: string
 }
 
-export type { IDashboard }
+
+interface IOverview {
+    type: "Retweets" | "Likes" | "Page Views" | "Profile Views" | "Total Views"
+    platformSpecificValue: string
+    company: Company
+    percentage: number
+}
+
+
+export type { IDashboard, IOverview }
